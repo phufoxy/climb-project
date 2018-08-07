@@ -44,7 +44,7 @@ body {
 #banner {
     height: 600px;
     text-align: center;
-    background: url('cover_bg_2.jpg') no-repeat;
+    background: url('img/blog-3.jpg') no-repeat;
     background-size: cover;
     padding: 20px 0 50px 0;
 }
@@ -480,6 +480,123 @@ footer .under p a {
     color: #ccc;
 }
 
+/* blog page */
+#banner-blog {
+    height: 600px;
+    text-align: center;
+    background: url('img/Blog.jpg') no-repeat;
+    background-size: cover;
+    padding: 20px 0 50px 0;
+}
+
+#banner-blog h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#banner-blog h1 {
+    color: #ffffff;
+    font-size: 48px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#banner-blog p {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+#banner-blog p a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#banner-blog button {
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #29C82C;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+/* contact page */
+#our-address{
+    height: auto;
+    background: #f4f4f4;
+    padding: 50px 0 50px 0;
+}
+#our-address .infor h1{
+    color: #585858;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+#our-address .infor p{
+    margin-top: 30px;
+    color: #585858;
+    font-size: 16px;
+}
+#our-address .infor li{
+    list-style-type: none;
+    color: #585858;
+}
+
+#our-address .form input{
+   margin: 20px 0 20px 0;
+}
+#our-address .form button{
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #29C82C;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+#map{
+    height: 500px;
+    background: url('img/map.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#map .form{
+    background: #ffffff;
+    width: 28%;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    position: absolute;
+    left: 35%;
+}
+#map .form h1{
+    font-size: 20px;
+}
+#map .form p{
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#map .form a{
+    color: #585858;
+    font-size: 12px;
+}
+#map .form button{
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    color: blue;
+    background-color: #ffffff;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+}
+#map img{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
 @media screen and (max-width: 768px) {
     .description {
         width: 100%;
