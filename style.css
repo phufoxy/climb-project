@@ -1,0 +1,591 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/roboto/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #E5EEE5;
+    font-size: 16px;
+    font-family: 'roboto';
+    line-height: 1.4em;
+}
+
+.description {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.description::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #29C82C;
+}
+
+.title {
+    font-size: 40px;
+    color: #585858;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/* banner */
+
+#banner {
+    height: 600px;
+    text-align: center;
+    background: url('cover_bg_2.jpg') no-repeat;
+    background-size: cover;
+    padding: 20px 0 50px 0;
+}
+
+#banner h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+#banner h1 {
+    color: #ffffff;
+    font-size: 48px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#banner p {
+    margin-top: 10px;
+    color: #ccc;
+}
+
+#banner p a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#banner button {
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #29C82C;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 70px;
+    background: #ffffff;
+}
+
+header h1 {
+    float: left;
+    width: 50%;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 580;
+}
+
+header h1 a {
+    color: #29C82C;
+}
+header h1 a:hover{
+    color: #29C82C;
+    text-decoration: none;
+}
+
+header nav {
+    text-align: right;
+    margin-top: 20px;
+    float: right;
+    width: 50%;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav li a {
+    color: #585858;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+header nav li a:hover {
+    color: #29C82C;
+    text-decoration: none;
+}
+
+/* main */
+
+/* business */
+
+#business {
+    height: auto;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+#business img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#business .card {
+    display: inline-table;
+    width: 30%;
+    text-align: left;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+#business .card:hover {
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #585858;
+    transition: 0.5s ease-in-out;
+}
+
+#business .card h1 {
+    color: #000000;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#business button {
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #29C82C;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* boxes */
+
+#boxes {
+    height: auto;
+    background: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#boxes .box {
+    display: inline-table;
+    width: 30%;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    /* transition: 1s ease-in-out; */
+}
+
+#boxes .box:hover {
+    box-shadow: 1px 1px 1px 1px #585858;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+#boxes .box i {
+    float: left;
+    width: 30%;
+    margin-top: 20px;
+    font-size: 36px;
+    color: #585858;
+}
+
+#boxes .box .infor {
+    float: right;
+    width: 70%;
+    text-align: left;
+}
+
+#boxes .box .infor h1 {
+    color: #000000;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#boxes .box .infor p {
+    color: #585858;
+}
+
+#boxes .box .infor a {
+    color: #29C82C;
+}
+
+/* our-gallery */
+
+#our-gallery {
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#our-gallery .col {
+    display: flex;
+    margin-top: 5px;
+}
+
+#our-gallery .img-left {
+    height: 360px;
+    margin-right: 5px;
+    width: 60%;
+    position: relative;
+}
+
+#our-gallery h2 {
+    text-align: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ccc;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+#our-gallery .street {
+    text-align: left;
+    font-size: 26px;
+    font-weight: 500;
+    color: #ccc;
+    position: absolute;
+    top: 78%;
+    left: 5%;
+}
+
+#our-gallery .img-right {
+    position: relative;
+    height: 360px;
+    width: 40%;
+    margin-right: 5px;
+}
+
+#our-gallery button {
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #29C82C;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+/* our-team */
+
+#our-team {
+    height: auto;
+    background: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#our-team .box {
+    display: inline-table;
+    width: 28%;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+#our-team .box img {
+    height: 80px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+#our-team .box h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#our-team .box h2 {
+    margin-top: 6px;
+    font-size: 16px;
+    color: #585858;
+}
+
+#our-team .box p {
+    margin-top: 15px;
+    text-align: center;
+    width: 80%;
+    margin-left: 28px;
+}
+
+/* our-experties */
+
+#our-experties {
+    height: auto;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+#our-experties .box {
+    background-color: #ffffff;
+    display: inline-table;
+    width: 30%;
+    margin: 0 15px 30px 15px;
+    padding: 30px 10px 30px 10px;
+}
+
+#our-experties .box i {
+    color: #29C82C;
+    font-size: 38px;
+}
+
+#our-experties .box h1 {
+    color: #29C82C;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#our-experties .box p {
+    margin-top: 30px;
+}
+
+/* blog */
+
+#blog {
+    height: auto;
+    text-align: center;
+    background: #ffffff;
+    padding: 50px 0 50px 0;
+}
+#blog .card{
+    display: inline-table;
+    width: 30%;
+    margin: 0 5px 0 5px;
+    padding: 10px 10px 30px 10px;
+    text-align: left;
+}
+#blog .card:hover{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #585858;
+}
+
+#blog .card img{
+    height: 30%;
+    width: 100%;
+}
+#blog .card .infor{
+    margin-left: 20px;
+}
+#blog .card .infor h1{
+    font-size: 20px;    
+}
+#blog .card .infor h2{
+    font-size: 16px;
+    color: #585858;   
+    margin-bottom: 20px; 
+}
+#blog .card .infor p{  
+    margin-bottom: 20px; 
+}
+#blog .card .infor a{
+    color: #29C82C;
+    text-transform: capitalize;
+}
+#blog button{
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #29C82C;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+/* footer */
+
+footer {
+    height: auto;
+    background: #29C82C;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+footer .above {
+    display: flex;
+    text-align: center;
+}
+
+footer .above .above-link {
+    width: 20%;
+    text-align: left;
+}
+
+footer .above nav li {
+    display: block;
+}
+
+footer .above .above-link h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+footer .above nav li a {
+    line-height: 30px;
+    color: #ccc;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+footer .under {
+    margin-top: 100px;
+}
+
+footer .under nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer .under nav li i {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+footer .under p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+footer .under p a {
+    color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+    #banner h1 {
+        color: #ffffff;
+        font-size: 46px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header {
+        height: auto;
+        text-align: center;
+    }
+    header h1 {
+        float: none;
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 580;
+    }
+    header nav {
+        text-align: right;
+        margin-top: 20px;
+        float: none;
+        width: 100%;
+    }
+    #business .description {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding-bottom: 50px;
+    }
+    #business .card {
+        display: inline-table;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+        margin-left: 5px;
+    }
+    #boxes {
+        height: auto;
+        background: #ffffff;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    #boxes .box {
+        display: inline-table;
+        width: 100%;
+        margin-left: 5px;
+        margin-top: 5px;
+        /* transition: 1s ease-in-out; */
+    }
+    #our-gallery .col {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        /* background: red; */
+    }
+    #our-gallery .img-left {
+        height: 260px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    #our-gallery .img-right {
+        height: 260px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    #our-team .box {
+        display: Block;
+        width: 100%;
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+    #our-experties {
+        height: auto;
+        text-align: center;
+        padding: 50px 20px 50px 0;
+    }
+    #our-experties .box {
+        background-color: #ffffff;
+        display: block;
+        width: 100%;
+        padding: 30px 10px 30px 10px;
+    }
+    #blog .card{
+        display: block;
+        width: 100%;
+        margin: 0 5px 0 5px;
+        padding: 10px 10px 30px 10px;
+        text-align: left;
+    }
+    footer {
+        height: auto;
+        background: #29C82C;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    footer .above {
+        display: block;
+        text-align: center;
+    }
+    footer .above .above-link {
+        width: 100%;
+        text-align: center;
+    }
+    footer .under p {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #ffffff;
+    }
+}
