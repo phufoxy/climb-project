@@ -167,7 +167,7 @@ header nav li a:hover {
 }
 
 #business button {
-    width: 200px;
+    width: 300px;
     height: 50px;
     text-transform: uppercase;
     background-color: #29C82C;
@@ -301,6 +301,12 @@ header nav li a:hover {
     width: 28%;
     margin-right: 30px;
     margin-top: 50px;
+    padding: 10px;
+}
+#our-team .box:hover{
+    box-shadow: 1px 1px 1px 1px #585858;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
 }
 
 #our-team .box img {
@@ -342,7 +348,11 @@ header nav li a:hover {
     margin: 0 15px 30px 15px;
     padding: 30px 10px 30px 10px;
 }
-
+#our-experties .box:hover{
+    box-shadow: 1px 1px 1px 1px #585858;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+}
 #our-experties .box i {
     color: #29C82C;
     font-size: 38px;
